@@ -22,7 +22,7 @@
 
   --ff-sans: 'Inter', system-ui, sans-serif;
   --fw-base: 400;
-  --fw-md: 500;
+  --fw-md: 450;
   --fw-bold: 800;
 
   --fs-sm: 0.875rem;
@@ -91,6 +91,11 @@ a:hover {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {

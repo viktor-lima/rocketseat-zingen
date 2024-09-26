@@ -44,10 +44,9 @@
 }
 
 .container {
-  --max-width: 375px;
+  --max-width: 380px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
-  /* border: solid violet; */
 }
 
 @media (width >= 80em) {
