@@ -68,4 +68,9 @@
     }
 
   }
+
+  & p {
+    line-height: 1.25rem;
+    font-size: var(--fs-sm);
+  }
 }

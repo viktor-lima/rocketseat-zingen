@@ -64,6 +64,7 @@ h1 {
 
 h2 {
   font-size: var(--fs-xl);
+  line-height: 1.75rem;
 }
 
 h3 {
@@ -109,5 +110,14 @@ img {
     --py-xl: 5rem;
 
     --px-lg: 2rem;
+  }
+  h1,h2 {
+    line-height: 2.5rem;
+  }
+  h3 {
+    line-height: 1.75rem;
+  }
+  h2 {
+    font-size: var(--fs-xl);
   }
 }
